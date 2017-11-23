@@ -1,4 +1,7 @@
 http://notasdesoftware.com/2014/07/hola-mundo-en-slick2d.html //Slick2D tutorial
 https://www.youtube.com/channel/UCwRNHei-80IiXLLuBPdb00Q //Canal de youtube para saber lo basico de java
+http://wiki.eclipse.org/EGit/User_Guide //Canal de MrRafus (RAFITAAAA on to su flow)
 
 http://juegosconjava.blogspot.com.es/p/introduccion-slick2d.html //Informacion sobre Slick2D
+
+http://wiki.eclipse.org/EGit/User_Guide //GitPLugin for eclipse 

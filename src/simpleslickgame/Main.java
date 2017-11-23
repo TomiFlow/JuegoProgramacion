@@ -19,18 +19,18 @@ public class Main extends BasicGame {
   
     @Override
     public void init(GameContainer gc) throws SlickException {
-        this.rectangulo = new Rectangle(50, 50, 100, 100);
+        this.rectangulo = new Rectangle(50, 50, 100, 100);		// Se crea un objeto - rectangulo
         
     }
   
     @Override
     public void update(GameContainer gc, int i) throws SlickException {
-    	Input input= gc.getInput();
+    	Input input= gc.getInput();					// Listener para Inputs
     	if (input.isKeyDown(Input.KEY_DOWN)) {
     		rectangulo.setY(rectangulo.getY()+1);
     	}
     	else if  (input.isKeyDown(Input.KEY_UP)){
-         rectangulo.setY(rectangulo.getY()-1); //Para arriba negativo y para arriba positivo
+         rectangulo.setY(rectangulo.getY()-1); 			//Para arriba negativo y para abajo positivo
     	}
     	else if (input.isKeyDown(Input.KEY_RIGHT)) {
     		rectangulo.setX(rectangulo.getX()+1);
@@ -48,7 +48,7 @@ public class Main extends BasicGame {
   
     @Override
     public void render(GameContainer gc, Graphics g) throws SlickException {
-        g.draw(this.rectangulo);
+        g.draw(this.rectangulo);						// Se dibuja el rectangulo
         
     }
   
